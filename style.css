@@ -257,14 +257,14 @@ main{
 }
 @media only screen and (max-width: 670px){
     #about{
-        padding: 30px 20px;
+        padding: 40px 30px;
     }
 }
  
 /* Education Section */
 #education{
-    padding: 10px 30px;
-    margin-bottom: 50px;
+    padding: 50px 30px;
+    
 }
 #education h1{
     font-size: 30px;
@@ -291,9 +291,9 @@ main{
     color: var(--sidebgcolor);
     font-size: 15px;
 }
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 670px){
     #education{
-        padding: 10px 20px;
+        padding: 40px 30px;
     }
     #education .education-row{
         grid-template-columns: repeat(1, 1fr);
@@ -303,7 +303,7 @@ main{
 
 /* Skills Section */
 #skills{
-    padding: 10px 30px;
+    padding: 50px 30px;
 }
 #skills h1{
     font-size: 30px;
@@ -340,9 +340,9 @@ main{
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 670px){
     #skills{
-        padding: 10px 20px;
+        padding: 40px 30px;
     }
     #skills .skills-row{
         grid-template-columns: repeat(1, 1fr);
@@ -352,7 +352,7 @@ main{
 
 /* Contact Section */
 #contact{
-    padding: 40px 30px;
+    padding: 50px 30px;
 }
 #contact h1{
     font-size: 30px;
@@ -442,7 +442,7 @@ main{
 
 @media only screen and (max-width:800px){
     #contact{
-        padding: 30px 20px;
+        padding: 40px 30px;
     }
     #contact .contact-row{
         flex-direction: column;
